@@ -1,0 +1,197 @@
+name: Sync Fork and Notify Telegram
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # Runs every 30 minutes
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  sync-and-notify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4 
+        with:
+          fetch-depth: 1 
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Fetch and Analyze Changes
+        id: analyze
+        shell: python
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_ENV: ${{ github.env }}
+        run: |
+          import json
+          import os
+          import time
+          import urllib.request
+          import urllib.parse
+          
+          def fetch_json(url):
+              try:
+                  req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                  with urllib.request.urlopen(req, timeout=30) as response:
+                      return json.loads(response.read().decode('utf-8'))
+              except Exception as e:
+                  print(f"Error fetching {url}: {e}")
+                  return None
+
+          hackerone = "https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/hackerone_data.json"
+          bugcrowd = "https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/bugcrowd_data.json"
+          federacy = "https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/federacy_data.json"
+          intigriti = "https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/intigriti_data.json"
+          yeswehack = "https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/yeswehack_data.json"
+          
+          new_hackerone = fetch_json(hackerone)
+          new_bugcrowd = fetch_json(bugcrowd)
+          new_federacy = fetch_json(federacy)
+          new_intigriti = fetch_json(intigriti)
+          new_yeswehack = fetch_json(yeswehack)
+
+          old_hackerone_targets = set()
+          old_bugcrowd_targets = set()
+          old_federacy_targets = set()
+          old_intigriti_targets = set()
+          old_yeswehack_targets = set()
+
+          os.makedirs('data', exist_ok=True)
+
+          if os.path.exists('data/hackerone_data.json'):
+              try:
+                  with open('data/hackerone_data.json', 'r', encoding='utf-8') as f:
+                      old_hackerone_targets = {t['name'] for t in json.load(f) if 'name' in t}
+              except: pass
+
+          if os.path.exists('data/bugcrowd_data.json'):
+              try:
+                  with open('data/bugcrowd_data.json', 'r', encoding='utf-8') as f:
+                      old_bugcrowd_targets = {t['name'] for t in json.load(f) if 'name' in t}
+              except: pass
+
+          if os.path.exists('data/federacy_data.json'):
+              try:
+                  with open('data/federacy_data.json', 'r', encoding='utf-8') as f:
+                      old_federacy_targets = {t['name'] for t in json.load(f) if 'name' in t}
+              except: pass
+
+          if os.path.exists('data/intigriti_data.json'):
+              try:
+                  with open('data/intigriti_data.json', 'r', encoding='utf-8') as f:
+                      old_intigriti_targets = {t['name'] for t in json.load(f) if 'name' in t}
+              except: pass
+
+          if os.path.exists('data/yeswehack_data.json'):
+              try:
+                  with open('data/yeswehack_data.json', 'r', encoding='utf-8') as f:
+                      old_yeswehack_targets = {t['name'] for t in json.load(f) if 'name' in t}
+              except: pass
+
+          new_targets_list = []
+
+          if new_hackerone:
+              for target in new_hackerone:
+                  if target.get('name') and target['name'] not in old_hackerone_targets:
+                      url = target.get('url', '#')
+                      new_targets_list.append(f"🔹 *{target['name']}* (HackerOne) - [Link]({url})")
+
+          if new_bugcrowd:
+              for target in new_bugcrowd:
+                  if target.get('name') and target['name'] not in old_bugcrowd_targets:
+                      url = target.get('url', '#')
+                      new_targets_list.append(f"🔸 *{target['name']}* (Bugcrowd) - [Link]({url})")
+
+          if new_federacy:
+              for target in new_federacy:
+                  if target.get('name') and target['name'] not in old_federacy_targets:
+                      url = target.get('url', '#')
+                      new_targets_list.append(f"🔹 *{target['name']}* (Federacy) - [Link]({url})")
+
+          if new_intigriti:
+              for target in new_intigriti:
+                  if target.get('name') and target['name'] not in old_intigriti_targets:
+                      url = target.get('url', '#')
+                      new_targets_list.append(f"🔸 *{target['name']}* (Intigriti) - [Link]({url})")
+
+          if new_yeswehack:
+              for target in new_yeswehack:
+                  if target.get('name') and target['name'] not in old_yeswehack_targets:
+                      url = target.get('url', '#')
+                      new_targets_list.append(f"🔹 *{target['name']}* (YesWeHack) - [Link]({url})")
+
+          changed = False
+          if any([new_hackerone, new_bugcrowd, new_federacy, new_intigriti, new_yeswehack]):
+              if new_hackerone:
+                  with open('data/hackerone_data.json', 'w', encoding='utf-8') as f:
+                      json.dump(new_hackerone, f, ensure_ascii=False, indent=2)
+              if new_bugcrowd:
+                  with open('data/bugcrowd_data.json', 'w', encoding='utf-8') as f:
+                      json.dump(new_bugcrowd, f, ensure_ascii=False, indent=2)
+              if new_federacy:
+                  with open('data/federacy_data.json', 'w', encoding='utf-8') as f:
+                      json.dump(new_federacy, f, ensure_ascii=False, indent=2)
+              if new_intigriti:
+                  with open('data/intigriti_data.json', 'w', encoding='utf-8') as f:
+                      json.dump(new_intigriti, f, ensure_ascii=False, indent=2)
+              if new_yeswehack:
+                  with open('data/yeswehack_data.json', 'w', encoding='utf-8') as f:
+                      json.dump(new_yeswehack, f, ensure_ascii=False, indent=2)
+              
+              if new_targets_list:
+                  changed = True
+                  
+                  # SEND TELEGRAM NOTIFICATIONS (Chunked into batches of 15)
+                  bot_token = os.environ.get('TELEGRAM_BOT_TOKEN')
+                  chat_id = os.environ.get('TELEGRAM_CHAT_ID')
+                  telegram_url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
+
+                  chunk_size = 15
+                  total_chunks = (len(new_targets_list) + chunk_size - 1) // chunk_size
+
+                  for i in range(0, len(new_targets_list), chunk_size):
+                      chunk = new_targets_list[i:i + chunk_size]
+                      current_page = (i // chunk_size) + 1
+                      targets_str = "\n".join(chunk)
+                      
+                      header = "🚀 *Bug Bounty Radar: New Programs Detected!*\n"
+                      if total_chunks > 1:
+                          header = f"🚀 *Bug Bounty Radar: New Programs! (Part {current_page}/{total_chunks})*\n"
+
+                      message_text = f"{header}\n{targets_str}\n\n🎯 _Start hacking now!_"
+
+                      payload = {
+                          "chat_id": chat_id,
+                          "text": message_text,
+                          "parse_mode": "Markdown",
+                          "disable_web_page_preview": True
+                      }
+                      
+                      try:
+                          req = urllib.request.Request(
+                              telegram_url,
+                              data=json.dumps(payload).encode('utf-8'),
+                              headers={'Content-Type': 'application/json'}
+                          )
+                          urllib.request.urlopen(req)
+                          time.sleep(1) # Sleep 1s to respect rate limits
+                      except Exception as e:
+                          print(f"Telegram error on chunk {current_page}: {e}")
+
+          with open(os.environ['GITHUB_ENV'], 'a') as ge:
+              ge.write(f"CHANGED={'true' if changed else 'false'}\n")
+
+      - name: Commit and Push Changes
+        if: env.CHANGED == 'true'
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add data/*.json
+          git commit -m "Update targets: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" || echo "No changes"
+          git push origin main
