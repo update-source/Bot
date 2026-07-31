@@ -14967,6 +14967,97 @@
           "uri": "https://ecoupon.maf.ae/",
           "name": "Ecoupon",
           "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://citycentredeira.com/",
+          "uri": "https://citycentredeira.com/",
+          "name": "City Centre Deira",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://www.mycitycentrealbarsha.com/",
+          "uri": "https://www.mycitycentrealbarsha.com/",
+          "name": "City Centre Al Barsha",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://www.tilalalghaf.com/en",
+          "uri": "https://www.tilalalghaf.com/en",
+          "name": "Tilal Al Ghaf Website",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://atjunction.com/",
+          "uri": "https://atjunction.com/",
+          "name": "Junction Website",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://www.ghafwoods.com/en",
+          "uri": "https://www.ghafwoods.com/en",
+          "name": "Ghafwoods Website",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://www.majidalfuttaimproperties.com/en",
+          "uri": "https://www.majidalfuttaimproperties.com/en",
+          "name": "MAF Properties Website",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://smbu.mafcms.com/Sitefinity/adminapp/renderer/dashboard",
+          "uri": "https://smbu.mafcms.com/Sitefinity/adminapp/renderer/dashboard",
+          "name": "Sitefinity Portal",
+          "ipAddress": ""
+        },
+        {
+          "type": "ios",
+          "target": "https://apps.apple.com/us/app/belong-by-maf/id6443736108",
+          "uri": "https://apps.apple.com/us/app/belong-by-maf/id6443736108",
+          "name": "Belong by MAF (iOS)",
+          "ipAddress": ""
+        },
+        {
+          "type": "android",
+          "target": "https://play.google.com/store/apps/details?id=com.maf.communities&hl=en-US",
+          "uri": "https://play.google.com/store/apps/details?id=com.maf.communities&hl=en-US",
+          "name": "Belong by MAF (Android)",
+          "ipAddress": ""
+        },
+        {
+          "type": "api",
+          "target": "https://maf-properties-prod.apigee.net",
+          "uri": "https://maf-properties-prod.apigee.net",
+          "name": "https://maf-properties-prod.apigee.net",
+          "ipAddress": ""
+        },
+        {
+          "type": "api",
+          "target": "https://api.mafshoppingmalls.com",
+          "uri": "https://api.mafshoppingmalls.com",
+          "name": "https://api.mafshoppingmalls.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "api",
+          "target": "https://smbu-api.maf.ae/",
+          "uri": "https://smbu-api.maf.ae/",
+          "name": "https://smbu-api.maf.ae/",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://www.citycentremalls.com/en",
+          "uri": "https://www.citycentremalls.com/en",
+          "name": "https://www.citycentremalls.com/en",
+          "ipAddress": ""
         }
       ],
       "out_of_scope": []
@@ -31331,6 +31422,33 @@
           "ipAddress": ""
         }
       ]
+    }
+  },
+  {
+    "name": "Demo-EU-admin-PublicMBB-1",
+    "url": "https://eu.bugcrowd.net/engagements/eu-public-1",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": null,
+    "max_payout": 4500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "ip_address",
+          "target": "https://tracker.eu.bugcrowd.net/",
+          "uri": "https://tracker.eu.bugcrowd.net/",
+          "name": "Test-Target-Reward-updated",
+          "ipAddress": "192.168.1.1/24"
+        },
+        {
+          "type": "api",
+          "target": "https://temp-target.ai",
+          "uri": "https://temp-target.ai",
+          "name": "test-target-updated-1",
+          "ipAddress": "192.168.18.0/24"
+        }
+      ],
+      "out_of_scope": []
     }
   }
 ]
