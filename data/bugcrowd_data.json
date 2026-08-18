@@ -7109,74 +7109,74 @@
       "in_scope": [
         {
           "type": "website",
-          "target": "https://eua.cms.gov/",
-          "uri": "https://eua.cms.gov/",
-          "name": "https://eua.cms.gov/",
+          "target": "████████████████████",
+          "uri": null,
+          "name": "████████████████████",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "https://eua.cms.gov/efi",
-          "uri": "https://eua.cms.gov/efi",
-          "name": "https://eua.cms.gov/efi",
+          "target": "███████████████████████",
+          "uri": null,
+          "name": "███████████████████████",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "https://portal.cms.gov/",
-          "uri": "https://portal.cms.gov/",
-          "name": "https://portal.cms.gov/",
+          "target": "███████████████████████",
+          "uri": null,
+          "name": "███████████████████████",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "https://www.cms.gov/",
-          "uri": "https://www.cms.gov/",
-          "name": "https://www.cms.gov/",
+          "target": "████████████████████",
+          "uri": null,
+          "name": "████████████████████",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "https://cmsnationaltrainingprogram.cms.gov/",
-          "uri": "https://cmsnationaltrainingprogram.cms.gov/",
-          "name": "https://cmsnationaltrainingprogram.cms.gov/",
+          "target": "███████████████████████████████████████████",
+          "uri": null,
+          "name": "███████████████████████████████████████████",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "https://*nsa-idr.cms.gov",
-          "uri": "https://*nsa-idr.cms.gov",
-          "name": "*nsa-idr.cms.gov",
+          "target": "████████████████",
+          "uri": null,
+          "name": "████████████████",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "https://*qpp.cms.gov/",
-          "uri": "https://*qpp.cms.gov/",
-          "name": "*qpp.cms.gov/",
+          "target": "█████████████",
+          "uri": null,
+          "name": "█████████████",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "https://csscoperations.com/",
-          "uri": "https://csscoperations.com/",
-          "name": "https://csscoperations.com/",
+          "target": "███████████████████████████",
+          "uri": null,
+          "name": "███████████████████████████",
           "ipAddress": ""
         }
       ],
       "out_of_scope": [
         {
           "type": "website",
-          "target": "*https://www.eqrs.cms.gov and all related subdomains, APIs, and supporting services.",
-          "uri": "",
-          "name": "*https://www.eqrs.cms.gov and all related subdomains, APIs, and supporting services.",
+          "target": "████████████████████████████████████████████████████████████████████████████████████",
+          "uri": null,
+          "name": "████████████████████████████████████████████████████████████████████████████████████",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "*https://eua.cms.gov/euareporting/",
-          "uri": "",
-          "name": "*https://eua.cms.gov/euareporting/",
+          "target": "██████████████████████████████████",
+          "uri": null,
+          "name": "██████████████████████████████████",
           "ipAddress": ""
         }
       ]
@@ -16036,6 +16036,20 @@
           "target": "https://equella.monash.edu",
           "uri": "https://equella.monash.edu",
           "name": "equella.monash.edu",
+          "ipAddress": ""
+        },
+        {
+          "type": "ios",
+          "target": "https://apps.apple.com/ky/app/m-space/id6761056432",
+          "uri": "https://apps.apple.com/ky/app/m-space/id6761056432",
+          "name": "M-Space App iOS",
+          "ipAddress": null
+        },
+        {
+          "type": "android",
+          "target": "https://play.google.com/store/apps/details?id=com.monashuniversity.mspace.android&pcampaignid=web_share",
+          "uri": "https://play.google.com/store/apps/details?id=com.monashuniversity.mspace.android&pcampaignid=web_share",
+          "name": "M-Space App Android",
           "ipAddress": ""
         },
         {
