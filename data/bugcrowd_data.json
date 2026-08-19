@@ -14241,6 +14241,33 @@
     }
   },
   {
+    "name": "Litew8 GmbH - Marketplace Bug Bounty ",
+    "url": "https://bugcrowd.com/engagements/litew8",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1230303/project-templates-for-jira?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1230303/project-templates-for-jira?hosting=cloud&tab=overview",
+          "name": "Project Templates & Issue Templates for Jira | https://marketplace.atlassian.com/apps/1230303/project-templates-for-jira?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1235430/space-templates-for-confluence?tab=overview&hosting=cloud",
+          "uri": "https://marketplace.atlassian.com/apps/1235430/space-templates-for-confluence?tab=overview&hosting=cloud",
+          "name": "Space Templates for Confluence | https://marketplace.atlassian.com/apps/1235430/space-templates-for-confluence?tab=overview&hosting=cloud",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
     "name": "lululemon",
     "url": "https://bugcrowd.com/engagements/lululemon",
     "allows_disclosure": true,
@@ -22398,6 +22425,33 @@
     }
   },
   {
+    "name": "Raley Apps",
+    "url": "https://bugcrowd.com/engagements/raleyapps",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1214045/raley-email-notifications-for-jira-jsm?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1214045/raley-email-notifications-for-jira-jsm?hosting=cloud&tab=overview",
+          "name": "Raley Email Notifications for Jira / JSM - https://marketplace.atlassian.com/apps/1214045/raley-email-notifications-for-jira-jsm?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1223409/raley-purchase-orders?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1223409/raley-purchase-orders?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1223409/raley-purchase-orders?hosting=cloud&tab=overview",
+          "ipAddress": null
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
     "name": "Rapyd",
     "url": "https://bugcrowd.com/engagements/rapyd",
     "allows_disclosure": true,
@@ -24306,9 +24360,30 @@
         },
         {
           "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1219732/time-in-status?hosting=datacenter&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1219732/time-in-status?hosting=datacenter&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1219732/time-in-status?hosting=datacenter&tab=overview",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
           "target": "https://marketplace.atlassian.com/apps/1220385/issue-history?hosting=cloud",
           "uri": "https://marketplace.atlassian.com/apps/1220385/issue-history?hosting=cloud",
           "name": "https://marketplace.atlassian.com/apps/1220385/issue-history?hosting=cloud",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1220385/issue-history-for-jira?hosting=datacenter&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1220385/issue-history-for-jira?hosting=datacenter&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1220385/issue-history-for-jira?hosting=datacenter&tab=overview",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1227085/forms-checklists-for-jira?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1227085/forms-checklists-for-jira?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1227085/forms-checklists-for-jira?hosting=cloud&tab=overview",
           "ipAddress": null
         },
         {
@@ -24327,23 +24402,9 @@
         },
         {
           "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1227085/forms-checklists-for-jira?hosting=cloud&tab=overview",
-          "uri": "https://marketplace.atlassian.com/apps/1227085/forms-checklists-for-jira?hosting=cloud&tab=overview",
-          "name": "https://marketplace.atlassian.com/apps/1227085/forms-checklists-for-jira?hosting=cloud&tab=overview",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
           "target": "https://marketplace.atlassian.com/apps/1228109/recurring-checklists-and-report?hosting=cloud&tab=overview",
           "uri": "https://marketplace.atlassian.com/apps/1228109/recurring-checklists-and-report?hosting=cloud&tab=overview",
           "name": "https://marketplace.atlassian.com/apps/1228109/recurring-checklists-and-report?hosting=cloud&tab=overview",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1222274/jiva-voice-assistant-for-jira?hosting=cloud&tab=overview",
-          "uri": "https://marketplace.atlassian.com/apps/1222274/jiva-voice-assistant-for-jira?hosting=cloud&tab=overview",
-          "name": "https://marketplace.atlassian.com/apps/1222274/jiva-voice-assistant-for-jira?hosting=cloud&tab=overview",
           "ipAddress": null
         },
         {
@@ -24358,34 +24419,6 @@
           "target": "https://marketplace.atlassian.com/apps/1231078/issue-creator-for-jira-cloud-capture-screen-annotate?hosting=cloud&tab=overview",
           "uri": "https://marketplace.atlassian.com/apps/1231078/issue-creator-for-jira-cloud-capture-screen-annotate?hosting=cloud&tab=overview",
           "name": "https://marketplace.atlassian.com/apps/1231078/issue-creator-for-jira-cloud-capture-screen-annotate?hosting=cloud",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1220385/issue-history-for-jira?hosting=datacenter&tab=overview",
-          "uri": "https://marketplace.atlassian.com/apps/1220385/issue-history-for-jira?hosting=datacenter&tab=overview",
-          "name": "https://marketplace.atlassian.com/apps/1220385/issue-history-for-jira?hosting=datacenter&tab=overview",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1221462/time-between-statuses-time-to-resolution-timer?tab=overview&hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1221462/time-between-statuses-time-to-resolution-timer?tab=overview&hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1221462/time-between-statuses-time-to-resolution-timer?tab=overview&hosting=cloud",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1219732/time-in-status?hosting=datacenter&tab=overview",
-          "uri": "https://marketplace.atlassian.com/apps/1219732/time-in-status?hosting=datacenter&tab=overview",
-          "name": "https://marketplace.atlassian.com/apps/1219732/time-in-status?hosting=datacenter&tab=overview",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1221462/time-between-statuses-time-to-resolution-timer?hosting=datacenter&tab=overview",
-          "uri": "https://marketplace.atlassian.com/apps/1221462/time-between-statuses-time-to-resolution-timer?hosting=datacenter&tab=overview",
-          "name": "https://marketplace.atlassian.com/apps/1221462/time-between-statuses-time-to-resolution-timer?hosting=datacenter&tab=overview",
           "ipAddress": ""
         }
       ],
