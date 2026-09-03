@@ -9063,7 +9063,7 @@
   {
     "name": "Fivetran",
     "url": "https://bugcrowd.com/engagements/fivetran-mbb-og",
-    "allows_disclosure": false,
+    "allows_disclosure": true,
     "managed_by_bugcrowd": true,
     "safe_harbor": "full",
     "max_payout": 15000,
@@ -17298,7 +17298,7 @@
           "type": "website",
           "target": "https://marketplace.atlassian.com/apps/1233908/connectors-for-jira-free?hosting=cloud",
           "uri": "https://marketplace.atlassian.com/apps/1233908/connectors-for-jira-free?hosting=cloud",
-          "name": "Connectors for Jira (Atlassian Marketplace App)",
+          "name": "Connectors for Jira (Atlassian Marketplace App) - https://marketplace.atlassian.com/apps/1233908/connectors-for-jira-free?hosting=cloud",
           "ipAddress": null
         }
       ],
@@ -26987,6 +26987,13 @@
           "target": "https://digits.t-mobile.com",
           "uri": "https://digits.t-mobile.com",
           "name": "DIGITS - Web, Desktop, Mobile",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://account.business.t-mobile.com",
+          "uri": "https://account.business.t-mobile.com",
+          "name": "account.business.t-mobile.com",
           "ipAddress": ""
         },
         {
