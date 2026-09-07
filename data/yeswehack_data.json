@@ -842,125 +842,6 @@
     }
   },
   {
-    "id": "deezer-bug-bounty-program-2019",
-    "name": "Deezer Bug Bounty Program",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 0,
-    "max_bounty": 2500,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "www.deezer.com",
-          "type": "web-application"
-        },
-        {
-          "target": "connect.deezer.com",
-          "type": "web-application"
-        },
-        {
-          "target": "api.deezer.com",
-          "type": "api"
-        },
-        {
-          "target": "payment.deezer.com",
-          "type": "web-application"
-        },
-        {
-          "target": "https://play.google.com/store/apps/details?id=deezer.android.app",
-          "type": "mobile-application-android"
-        },
-        {
-          "target": "https://apps.apple.com/fr/app/deezer-musique-podcast/id292738169",
-          "type": "mobile-application-ios"
-        },
-        {
-          "target": "zen.deezer.com",
-          "type": "web-application"
-        },
-        {
-          "target": "wellbeing.deezer.com",
-          "type": "api"
-        },
-        {
-          "target": "wellbeing.dzcdn.net",
-          "type": "other"
-        },
-        {
-          "target": "https://play.google.com/store/apps/details?id=com.deezer.zen",
-          "type": "mobile-application-android"
-        },
-        {
-          "target": "https://apps.apple.com/be/app/zen-by-deezer-m%C3%A9ditation/id1597326355",
-          "type": "mobile-application-ios"
-        },
-        {
-          "target": "account.deezer.com",
-          "type": "web-application"
-        },
-        {
-          "target": "pipe.deezer.com",
-          "type": "api"
-        },
-        {
-          "target": "ws.deezer.com",
-          "type": "api"
-        },
-        {
-          "target": "upload.deezer.com",
-          "type": "web-application"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "developers.deezer.com",
-          "type": "other"
-        },
-        {
-          "target": "partners.deezer.com",
-          "type": "other"
-        },
-        {
-          "target": "cdn-files.deezer.com",
-          "type": "other"
-        },
-        {
-          "target": "cdn-content.deezer.com",
-          "type": "other"
-        },
-        {
-          "target": "support.deezer.com",
-          "type": "other"
-        },
-        {
-          "target": "deezercommunity.com",
-          "type": "other"
-        },
-        {
-          "target": "deezer-blog.com",
-          "type": "other"
-        },
-        {
-          "target": "deezer-brandsolutions.com",
-          "type": "other"
-        },
-        {
-          "target": "deezerjobs.com",
-          "type": "other"
-        },
-        {
-          "target": "desktop apps (electron)",
-          "type": "other"
-        },
-        {
-          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
     "id": "doctolib-public-bug-bounty-program",
     "name": "Doctolib",
     "public": true,
@@ -3375,44 +3256,6 @@
     }
   },
   {
-    "id": "qwant",
-    "name": "Qwant",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 100,
-    "max_bounty": 5000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "www.qwant.com",
-          "type": "web-application"
-        },
-        {
-          "target": "api.qwant.com",
-          "type": "api"
-        },
-        {
-          "target": "s.qwant.com",
-          "type": "web-application"
-        },
-        {
-          "target": "s1.qwant.com",
-          "type": "web-application"
-        },
-        {
-          "target": "s2.qwant.com",
-          "type": "web-application"
-        },
-        {
-          "target": "qwantjunior.com",
-          "type": "web-application"
-        }
-      ],
-      "out_of_scope": []
-    }
-  },
-  {
     "id": "sante-publique-france-bugbounty-public-program",
     "name": "Santé Publique France Bug Bounty Program",
     "public": true,
@@ -3841,10 +3684,6 @@
           "type": "web-application"
         },
         {
-          "target": "*.stream.telenor.se",
-          "type": "web-application"
-        },
-        {
           "target": "https://play.google.com/store/apps/details?id=com.vimlaapp&hl=en",
           "type": "mobile-application-android"
         },
@@ -3863,6 +3702,10 @@
         {
           "target": "*.telenorinpli.se",
           "type": "wildcard"
+        },
+        {
+          "target": "*.stream.telenor.se",
+          "type": "web-application"
         },
         {
           "target": "*.telenor.se",
@@ -3936,6 +3779,10 @@
         },
         {
           "target": "stage-vimla-se.vimla.io",
+          "type": "other"
+        },
+        {
+          "target": "admin-stage.tv.telenor.se",
           "type": "other"
         },
         {
