@@ -5605,6 +5605,33 @@
     }
   },
   {
+    "name": "Cappsule Sarl - Marketplace Bug Bounty Program",
+    "url": "https://bugcrowd.com/engagements/cappsule-sarl",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216988/timesheet-tracking-for-jira?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216988/timesheet-tracking-for-jira?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1216988/timesheet-tracking-for-jira?hosting=cloud&tab=overview",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1235502/chart-factory-for-jira?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1235502/chart-factory-for-jira?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1235502/chart-factory-for-jira?hosting=cloud&tab=overview",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
     "name": "Majid Al Futtaim Retail",
     "url": "https://bugcrowd.com/engagements/carrefour",
     "allows_disclosure": true,
@@ -5688,6 +5715,75 @@
           "target": "█████████████████",
           "uri": null,
           "name": "█████████████████",
+          "ipAddress": null
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
+    "name": "Catapult Labs Bug Bounty",
+    "url": "https://bugcrowd.com/engagements/catapultlabs",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215875/scrum-poker-estimates-for-confluence?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215875/scrum-poker-estimates-for-confluence?hosting=cloud&tab=overview",
+          "name": "Scrum Poker Estimates for Confluence - Cloud - https://marketplace.atlassian.com/apps/1215875/scrum-poker-estimates-for-confluence?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1218960/scrum-poker-estimates-for-jira?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1218960/scrum-poker-estimates-for-jira?hosting=cloud&tab=overview",
+          "name": "Scrum Poker Estimates for Jira - Cloud -  https://marketplace.atlassian.com/apps/1218960/scrum-poker-estimates-for-jira?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1218860/agile-retrospectives-for-jira?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1218860/agile-retrospectives-for-jira?hosting=cloud&tab=overview",
+          "name": "Agile Retrospectives for Jira - Cloud https://marketplace.atlassian.com/apps/1218860/agile-retrospectives-for-jira?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1218860/agile-retrospectives-for-jira?hosting=datacenter&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1218860/agile-retrospectives-for-jira?hosting=datacenter&tab=overview",
+          "name": "Agile Retrospectives for Jira - DC-  https://marketplace.atlassian.com/apps/1218860/agile-retrospectives-for-jira?hosting=datacenter&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216054/agile-retrospectives-for-confluence?tab=overview&hosting=cloud",
+          "uri": "https://marketplace.atlassian.com/apps/1216054/agile-retrospectives-for-confluence?tab=overview&hosting=cloud",
+          "name": "Agile Retrospectives for Confluence - Cloud - https://marketplace.atlassian.com/apps/1216054/agile-retrospectives-for-confluence?tab=overview&hosting=cloud",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216054/agile-retrospectives-for-confluence?hosting=datacenter&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216054/agile-retrospectives-for-confluence?hosting=datacenter&tab=overview",
+          "name": "Agile Retrospectives for Confluence - DC -  https://marketplace.atlassian.com/apps/1216054/agile-retrospectives-for-confluence?hosting=datacenter&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1217825/standbot-slack-stand-up-bot-for-jira?tab=overview&hosting=cloud",
+          "uri": "https://marketplace.atlassian.com/apps/1217825/standbot-slack-stand-up-bot-for-jira?tab=overview&hosting=cloud",
+          "name": "StandBot - Slack stand-up bot for Jira - Cloud - https://marketplace.atlassian.com/apps/1217825/standbot-slack-stand-up-bot-for-jira?tab=overview&hosting=cloud",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1227873/teampulse-health-checks-for-jira?tab=overview&hosting=cloud",
+          "uri": "https://marketplace.atlassian.com/apps/1227873/teampulse-health-checks-for-jira?tab=overview&hosting=cloud",
+          "name": "TeamPulse - Health checks for Jira - Cloud - https://marketplace.atlassian.com/apps/1227873/teampulse-health-checks-for-jira?tab=overview&hosting=cloud",
           "ipAddress": null
         }
       ],
@@ -6722,6 +6818,26 @@
     }
   },
   {
+    "name": "codecentric AG - Marketplace Bug Bounty Program",
+    "url": "https://bugcrowd.com/engagements/codecentric",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1227136/issue-picker-for-jira?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1227136/issue-picker-for-jira?hosting=cloud&tab=overview",
+          "name": "Issue Picker for Jira - https://marketplace.atlassian.com/apps/1227136/issue-picker-for-jira?hosting=cloud&tab=overview",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
     "name": "codeclou GmbH",
     "url": "https://bugcrowd.com/engagements/codeclou",
     "allows_disclosure": false,
@@ -7459,6 +7575,54 @@
     }
   },
   {
+    "name": "Creativas",
+    "url": "https://bugcrowd.com/engagements/creativas",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1219677/smart-terms-for-confluence-glossary?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1219677/smart-terms-for-confluence-glossary?hosting=cloud&tab=overview",
+          "name": "Smart Terms for Confluence - Glossary - Cloud - https://marketplace.atlassian.com/apps/1219677/smart-terms-for-confluence-glossary?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216979/smart-courses-for-confluence-lms?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216979/smart-courses-for-confluence-lms?hosting=cloud&tab=overview",
+          "name": "Smart Courses for Confluence - LMS - Cloud - https://marketplace.atlassian.com/apps/1216979/smart-courses-for-confluence-lms?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1225000/smart-images-for-confluence?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1225000/smart-images-for-confluence?hosting=cloud&tab=overview",
+          "name": "Smart Images for Confluence- Cloud - https://marketplace.atlassian.com/apps/1225000/smart-images-for-confluence?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1218080/smart-tables-for-confluence?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1218080/smart-tables-for-confluence?hosting=cloud&tab=overview",
+          "name": "Smart Tables for Confluence - Cloud - https://marketplace.atlassian.com/apps/1218080/smart-tables-for-confluence?hosting=cloud&tab=overview",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1234678/smart-terms-for-jira-glossary?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1234678/smart-terms-for-jira-glossary?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1234678/smart-terms-for-jira-glossary?hosting=cloud&tab=overview",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
     "name": "Dell Technologies Application Bug Bounty",
     "url": "https://bugcrowd.com/engagements/dell-com",
     "allows_disclosure": true,
@@ -7918,6 +8082,40 @@
           "target": "https://marketplace.atlassian.com/apps/856555290/salesforge-crm-leads-deals-customers-management-for-jira?hosting=cloud&tab=overview",
           "uri": "https://marketplace.atlassian.com/apps/856555290/salesforge-crm-leads-deals-customers-management-for-jira?hosting=cloud&tab=overview",
           "name": "https://marketplace.atlassian.com/apps/856555290/salesforge-crm-leads-deals-customers-management-for-jira?hosting=cloud&tab=overview",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
+    "name": "Digital Rose's Marketplace Bug Bounty",
+    "url": "https://bugcrowd.com/engagements/digitalrose",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1221581/esign-electronic-signatures-for-jira?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1221581/esign-electronic-signatures-for-jira?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1221581/esign-electronic-signatures-for-jira?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1224071/esign-electronic-signatures-for-confluence?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1224071/esign-electronic-signatures-for-confluence?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1224071/esign-electronic-signatures-for-confluence?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1228868/esign-document-management?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1228868/esign-document-management?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1228868/esign-document-management?hosting=cloud&tab=overview",
           "ipAddress": ""
         }
       ],
@@ -22411,6 +22609,55 @@
     }
   },
   {
+    "name": "Railsware",
+    "url": "https://bugcrowd.com/engagements/railsware",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216451/smart-checklist-for-jira-enterprise?hosting=cloud",
+          "uri": "https://marketplace.atlassian.com/apps/1216451/smart-checklist-for-jira-enterprise?hosting=cloud",
+          "name": "Smart Checklist for Jira. Enterprise -  https://marketplace.atlassian.com/apps/1216451/smart-checklist-for-jira-enterprise?hosting=cloud",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215277/smart-checklist-for-jira-free?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215277/smart-checklist-for-jira-free?hosting=cloud&tab=overview",
+          "name": "Smart Checklist for Jira Free - https://marketplace.atlassian.com/apps/1215277/smart-checklist-for-jira-free?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1231143/smart-templates-issue-templates-for-jira?hosting=cloud&tab",
+          "uri": "https://marketplace.atlassian.com/apps/1231143/smart-templates-issue-templates-for-jira?hosting=cloud&tab",
+          "name": "Smart Templates: Issue Templates for Jira - https://marketplace.atlassian.com/apps/1231143/smart-templates-issue-templates-for-jira?hosting=cloud&tab",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1233681/smart-ai-release-notes-for-jira?tab=overview&hosting=cloud",
+          "uri": "https://marketplace.atlassian.com/apps/1233681/smart-ai-release-notes-for-jira?tab=overview&hosting=cloud",
+          "name": "https://marketplace.atlassian.com/apps/1233681/smart-ai-release-notes-for-jira?tab=overview&hosting=cloud",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "https://jirachecklist.com/",
+          "uri": "https://jirachecklist.com/",
+          "name": "https://jirachecklist.com/",
+          "ipAddress": null
+        }
+      ]
+    }
+  },
+  {
     "name": "Raley Apps",
     "url": "https://bugcrowd.com/engagements/raleyapps",
     "allows_disclosure": false,
@@ -24964,6 +25211,40 @@
           "target": "SAP Concur",
           "uri": "",
           "name": "SAP Concur",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
+    "name": "Savignano Software Solutions Marketplace Bug Bounty Program",
+    "url": "https://bugcrowd.com/engagements/savignano",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1218251/s-notify-email-encryption-for-jira?hosting=datacenter",
+          "uri": "https://marketplace.atlassian.com/apps/1218251/s-notify-email-encryption-for-jira?hosting=datacenter",
+          "name": "https://marketplace.atlassian.com/apps/1218251/s-notify-email-encryption-for-jira?hosting=datacenter",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1218509/s-notify-email-encryption-for-confluence?hosting=datacenter",
+          "uri": "https://marketplace.atlassian.com/apps/1218509/s-notify-email-encryption-for-confluence?hosting=datacenter",
+          "name": "https://marketplace.atlassian.com/apps/1218509/s-notify-email-encryption-for-confluence?hosting=datacenter",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1226720/s-notify-email-encryption-for-bitbucket?hosting=datacenter",
+          "uri": "https://marketplace.atlassian.com/apps/1226720/s-notify-email-encryption-for-bitbucket?hosting=datacenter",
+          "name": "https://marketplace.atlassian.com/apps/1226720/s-notify-email-encryption-for-bitbucket?hosting=datacenter",
           "ipAddress": ""
         }
       ],
@@ -30528,6 +30809,75 @@
           "uri": "https://webmail.usaa.com",
           "name": "webmail.usaa.com",
           "ipAddress": null
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
+    "name": "Vectors Bug Bounty ",
+    "url": "https://bugcrowd.com/engagements/vectors-marketplace",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1212124/spectrum-formatting-macros?hosting=cloud",
+          "uri": "https://marketplace.atlassian.com/apps/1212124/spectrum-formatting-macros?hosting=cloud",
+          "name": "https://marketplace.atlassian.com/apps/1212124/spectrum-formatting-macros?hosting=cloud",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1211894/ideation?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1211894/ideation?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1211894/ideation?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1211855/faq-for-confluence?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1211855/faq-for-confluence?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1211855/faq-for-confluence?hosting=cloud&tab=overview",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1212012/discussion-for-confluence?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1212012/discussion-for-confluence?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1212012/discussion-for-confluence?hosting=cloud&tab=overview",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1217652/content-status-for-confluence?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1217652/content-status-for-confluence?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1217652/content-status-for-confluence?hosting=cloud&tab=overview",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1235238/morph-ai-powered-content-formatting-for-confluence?tab=overview&hosting=cloud",
+          "uri": "https://marketplace.atlassian.com/apps/1235238/morph-ai-powered-content-formatting-for-confluence?tab=overview&hosting=cloud",
+          "name": "https://marketplace.atlassian.com/apps/1235238/morph-ai-powered-content-formatting-for-confluence?tab=overview&hosting=cloud",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1211800/glossary?hosting=cloud",
+          "uri": "https://marketplace.atlassian.com/apps/1211800/glossary?hosting=cloud",
+          "name": "https://marketplace.atlassian.com/apps/1211800/glossary?hosting=cloud",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1235579/comment-toolkit-for-jira?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1235579/comment-toolkit-for-jira?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1235579/comment-toolkit-for-jira?hosting=cloud&tab=overview",
+          "ipAddress": ""
         }
       ],
       "out_of_scope": []
