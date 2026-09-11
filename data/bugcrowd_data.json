@@ -12322,18 +12322,18 @@
       "in_scope": [
         {
           "type": "website",
-          "target": "https://kw-bugcrowd-pub.bounty.kiteworks.dev/",
-          "uri": "https://kw-bugcrowd-pub.bounty.kiteworks.dev/",
-          "name": "https://kw-bugcrowd-pub.bounty.kiteworks.dev/",
+          "target": "█████████████████████████████████████████████",
+          "uri": null,
+          "name": "█████████████████████████████████████████████",
           "ipAddress": null
         }
       ],
       "out_of_scope": [
         {
           "type": "website",
-          "target": "https://bugcrowd-pub.bounty.kiteworks.dev",
-          "uri": "https://bugcrowd-pub.bounty.kiteworks.dev",
-          "name": "https://bugcrowd-pub.bounty.kiteworks.dev",
+          "target": "█████████████████████████████████████████",
+          "uri": null,
+          "name": "█████████████████████████████████████████",
           "ipAddress": ""
         }
       ]
@@ -31577,6 +31577,13 @@
       "in_scope": [
         {
           "type": "website",
+          "target": "https://app.web.com",
+          "uri": "https://app.web.com",
+          "name": "app.web.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
           "target": "https://www.networksolutions.com",
           "uri": "https://www.networksolutions.com",
           "name": "www.networksolutions.com",
@@ -31638,13 +31645,6 @@
           "target": "https://*.hostgator.com",
           "uri": "https://*.hostgator.com",
           "name": "*.hostgator.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://app.web.com",
-          "uri": "https://app.web.com",
-          "name": "app.web.com",
           "ipAddress": ""
         }
       ]
