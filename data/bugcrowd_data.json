@@ -6101,6 +6101,27 @@
           "ipAddress": ""
         },
         {
+          "type": "website",
+          "target": "https://stp.wien.gv.at/geoserverneuogd/*",
+          "uri": null,
+          "name": "https://stp.wien.gv.at/geoserverneuogd/*",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://www.wien.gv.at/agssoe/*",
+          "uri": "",
+          "name": "https://www.wien.gv.at/agssoe/*",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://www.geschichtewiki.wien.gv.at",
+          "uri": "https://www.geschichtewiki.wien.gv.at",
+          "name": "geschichtewiki.wien.gv.at",
+          "ipAddress": ""
+        },
+        {
           "type": "other",
           "target": "Public Network / Veranstaltungsnetz",
           "uri": "",
