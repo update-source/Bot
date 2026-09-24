@@ -375,6 +375,126 @@
   {
     "allows_bounty_splitting": false,
     "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": null,
+    "average_time_to_report_resolved": null,
+    "handle": "coindcx_vdp",
+    "id": 0,
+    "managed_program": false,
+    "name": "CoinDCX Vulnerability Disclosure",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": null,
+    "submission_state": "open",
+    "url": "https://hackerone.com/coindcx_vdp",
+    "website": "http://coindcx.com",
+    "targets": {
+      "in_scope": [
+        {
+          "asset_identifier": "api.coindcx.com",
+          "asset_type": "API",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "bitoasis.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "coindcx.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "https://apps.apple.com/ae/app/bitoasis-buy-bitcoin-crypto/id1521661794",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "https://apps.apple.com/in/app/coindcx-bitcoin-crypto-app/id1517787269",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "https://apps.apple.com/in/app/okto-wallet/id6450688229",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "https://play.google.com/store/apps/details?id=com.bitoasis&hl=en",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "https://play.google.com/store/apps/details?id=com.coindcx.okto",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
     "average_time_to_first_program_response": 35.0,
     "average_time_to_report_resolved": 172.0,
     "handle": "assa_abloy_americas",
@@ -2612,7 +2732,7 @@
     "name": "Omnicell",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 73,
+    "response_efficiency_percentage": 75,
     "submission_state": "open",
     "url": "https://hackerone.com/omnicell",
     "website": "http://omnicell.com",
@@ -2808,7 +2928,7 @@
     "name": "Vanguard",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 95,
+    "response_efficiency_percentage": 94,
     "submission_state": "open",
     "url": "https://hackerone.com/vanguard",
     "website": "http://vanguard.com",
@@ -9379,7 +9499,7 @@
     "name": "Treasury Board of Canada Secretariat/Secrétariat du Conseil du Trésor du Canada",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 70,
+    "response_efficiency_percentage": 69,
     "submission_state": "open",
     "url": "https://hackerone.com/tbs-sct",
     "website": "https://www.tbs-sct.canada.ca/",
@@ -9581,6 +9701,17 @@
           "eligible_for_submission": true,
           "instruction": null,
           "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "staging.tracker.canada.ca",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
           "max_severity": "critical"
         },
         {
@@ -12139,7 +12270,7 @@
     "name": "Anduril Industries",
     "offers_bounties": true,
     "offers_swag": true,
-    "response_efficiency_percentage": 89,
+    "response_efficiency_percentage": 88,
     "submission_state": "open",
     "url": "https://hackerone.com/anduril_industries",
     "website": "https://www.anduril.com",
@@ -18368,7 +18499,7 @@
     "name": "British Airways VDP",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 65,
+    "response_efficiency_percentage": 67,
     "submission_state": "open",
     "url": "https://hackerone.com/british_airways_vdp",
     "website": "http://britishairways.com",
@@ -18796,7 +18927,7 @@
     "name": "Citi Group",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 42,
+    "response_efficiency_percentage": 50,
     "submission_state": "open",
     "url": "https://hackerone.com/citi_group",
     "website": "http://citigroup.com",
@@ -19662,7 +19793,7 @@
     "name": "Kaseya",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 74,
+    "response_efficiency_percentage": 75,
     "submission_state": "open",
     "url": "https://hackerone.com/kaseya",
     "website": "http://kaseya.com",
@@ -27109,7 +27240,7 @@
     "name": "OPPO",
     "offers_bounties": true,
     "offers_swag": true,
-    "response_efficiency_percentage": 88,
+    "response_efficiency_percentage": 87,
     "submission_state": "open",
     "url": "https://hackerone.com/oppo_bbp",
     "website": "https://security.oppo.com/en/",
@@ -28869,7 +29000,7 @@
     "name": "The Browser Company of NYC",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 76,
+    "response_efficiency_percentage": 77,
     "submission_state": "open",
     "url": "https://hackerone.com/bcny",
     "website": "http://thebrowser.company",
@@ -30049,7 +30180,7 @@
     "name": "PepsiCo VDP",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 73,
+    "response_efficiency_percentage": 72,
     "submission_state": "open",
     "url": "https://hackerone.com/pepsico_vdp",
     "website": "http://pepsico.com",
@@ -32567,7 +32698,7 @@
     "name": "AWS VDP",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 38,
+    "response_efficiency_percentage": 39,
     "submission_state": "open",
     "url": "https://hackerone.com/aws_vdp",
     "website": "https://aws.amazon.com/",
@@ -38672,7 +38803,7 @@
     "name": "NBA Public Bug Bounty",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 86,
+    "response_efficiency_percentage": 87,
     "submission_state": "open",
     "url": "https://hackerone.com/nba-public",
     "website": "https://www.nba.com",
@@ -43721,7 +43852,7 @@
     "name": "HPE VDP",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 68,
+    "response_efficiency_percentage": 69,
     "submission_state": "open",
     "url": "https://hackerone.com/hpe_vdp",
     "website": "http://hpe.com",
@@ -64824,7 +64955,7 @@
     "name": "Kaltura",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": null,
+    "response_efficiency_percentage": 100,
     "submission_state": "open",
     "url": "https://hackerone.com/kaltura",
     "website": "http://kaltura.com",
@@ -78618,7 +78749,7 @@
     "name": "Ring",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 71,
+    "response_efficiency_percentage": 72,
     "submission_state": "open",
     "url": "https://hackerone.com/ring",
     "website": "http://ring.com",
@@ -79993,7 +80124,7 @@
     "name": "eufy Security",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 64,
+    "response_efficiency_percentage": 66,
     "submission_state": "open",
     "url": "https://hackerone.com/eufy_security",
     "website": "http://eufy.com",
@@ -82332,7 +82463,7 @@
     "name": "Prudential Financial",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 58,
+    "response_efficiency_percentage": 67,
     "submission_state": "open",
     "url": "https://hackerone.com/prudential-financial",
     "website": "https://www.prudential.com/",
@@ -99965,7 +100096,7 @@
     "name": "Yuga Labs",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 60,
+    "response_efficiency_percentage": 59,
     "submission_state": "open",
     "url": "https://hackerone.com/yuga_labs",
     "website": "http://www.yuga.com",
@@ -158844,7 +158975,7 @@
     "name": "Render",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 85,
+    "response_efficiency_percentage": 80,
     "submission_state": "open",
     "url": "https://hackerone.com/render",
     "website": "http://render.com",
@@ -162808,7 +162939,7 @@
     "name": "Hilton",
     "offers_bounties": true,
     "offers_swag": true,
-    "response_efficiency_percentage": 83,
+    "response_efficiency_percentage": 84,
     "submission_state": "open",
     "url": "https://hackerone.com/hilton",
     "website": "http://hilton.com",
@@ -165040,7 +165171,7 @@
     "name": "Allegion",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 81,
+    "response_efficiency_percentage": 73,
     "submission_state": "open",
     "url": "https://hackerone.com/allegion",
     "website": "http://allegion.com",
@@ -176168,7 +176299,7 @@
     "name": "KHealth",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 80,
+    "response_efficiency_percentage": 79,
     "submission_state": "open",
     "url": "https://hackerone.com/khealth",
     "website": "https://www.khealth.com",
@@ -184963,95 +185094,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "cat-api-firstdata-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-api-firstdata-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-api-firstdata-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-api-firstdata-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "cat-api-firstdata-use4.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-api-fiservapps-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-api-fiservapps-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-api-fiservapps-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-api-fiservapps-usc1.ns1.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -185073,95 +185116,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "cat-api-ipg-online-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-api-ipg-online-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-api-ipg-online-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-api-ipg-online-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "cat-api-ipg-online-use4.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-apigee-fiservapps-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-apigee-fiservapps-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-apigee-fiservapps-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-apigee-fiservapps-usc1.ns1.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -185249,73 +185204,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "cat-emea-api-fiservapps.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "cat-enterprisesecuritysystem.fiservclients.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-ess.firstdataeservices.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-gp-api-fiservapps-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-gp-api-fiservapps-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-gp-api-fiservapps-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat-gp-api-fiservapps-usc1.ns1.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -185470,17 +185359,6 @@
         },
         {
           "asset_identifier": "cat.apigee.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cat.gp.api.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -185810,17 +185688,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "ccdemo-temp.olbanking.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "ccdemo.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -186052,17 +185919,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "centralpacific-temp.olbanking.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "centralpacific.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -186162,403 +186018,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "cert-apac-api-fiservapps-x-asns1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-apac-api-fiservapps-x-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-firstdata-x-asns1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-firstdata-x-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-firstdata-x-euw1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-firstdata-x-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-firstdata-x-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-firstdata-x-saw1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-firstdata-x-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-firstdata-x-use4.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-firstdata.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-fiservapps-x-asns1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-fiservapps-x-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-fiservapps-x-euw1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-fiservapps-x-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-fiservapps-x-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "cert-api-fiservapps-x-saw1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-fiservapps-x-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-fiservapps-x-use4.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-ipg-online-x-asns1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-ipg-online-x-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-ipg-online-x-euw1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-ipg-online-x-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-ipg-online-x-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-ipg-online-x-saw1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-ipg-online-x-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-ipg-online-x-use4.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-api-ipg-online.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-apigee-fiservapps-x-asns1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-apigee-fiservapps-x-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-apigee-fiservapps-x-euw1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-apigee-fiservapps-x-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-apigee-fiservapps-x-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-apigee-fiservapps-x-saw1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-apigee-fiservapps-x-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-apigee-fiservapps-x-use4.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-axiom.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -186734,28 +186194,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "cert-emea-api-fiservapps-x-euw1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-emea-api-fiservapps-x-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "cert-fdpos-x-usc1.ns1.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -186845,28 +186283,6 @@
         },
         {
           "asset_identifier": "cert-implementationhub.carat.fiserv.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-latam-api-fiservapps-x-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert-latam-api-fiservapps-x-saw1.ns1.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -187109,17 +186525,6 @@
         },
         {
           "asset_identifier": "cert.alecu.org",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cert.api.ipg-online.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -187670,28 +187075,6 @@
         },
         {
           "asset_identifier": "checkout-v2-production-radware.getbento.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "checkoutv2-nonprod-nextgen-radware.bentopreprod.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "checkoutv2-prod-radware.getbento.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -188505,17 +187888,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "cld-stage-www.merchantreferrals.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "cld-stage-www.polcard.pl",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -188550,17 +187922,6 @@
         },
         {
           "asset_identifier": "cld-stage.franchise.fiserv.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "cld-stage.ignitepayments.co.uk",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -188901,17 +188262,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "cnb-temp.olbanking.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "cnb.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -189199,28 +188549,6 @@
         },
         {
           "asset_identifier": "commercehub-cdn.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "commercehub-dev-x-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "commercehub-dev-x-usc1.ns1.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -189594,138 +188922,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "connect-asns1.apac.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-ause1.apac.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-cert-asns1.apac.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-cert-ause1.apac.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-cert-euw1.emea.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-cert-euw3.emea.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-cert-sae1.latam.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-cert.apac.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-cert.emea.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-cert.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-cert.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-cert.latam.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "connect-dev.apac.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -189737,205 +188933,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "connect-dev.emea.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "connect-dev.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-dev.latam.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-euw1.emea.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-euw3.emea.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-int-x-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-int-x-use4.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-int.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-int.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-qa.apac.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-qa.emea.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-qa.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-qa.latam.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-sae1.latam.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-saw1.latam.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-test.apac.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-test.emea.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-test.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "connect-test.latam.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -190299,50 +189297,6 @@
         },
         {
           "asset_identifier": "cooporiental-dc.cert.fec-dc.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "copilot-api-uat.cardconnect.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "copilot-api-uat.cardpointe.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "copilot-uat.cardpointe.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "copilotapi-uat.cardconnect.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -191035,17 +189989,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "ctbcbank-temp.olbanking.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "ctbcbank.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -191443,17 +190386,6 @@
         },
         {
           "asset_identifier": "datacompass.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dataexchange-temp.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -191915,72 +190847,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "dev-alt-int.catalyst.clover.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev-alt.catalyst.clover.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev-api-ipg-online-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev-api-ipg-online-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev-api-ipg-online-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev-api-ipg-online-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "dev-api-ipg-online-use4.ns1.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -192025,17 +190891,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "dev-fileexchange.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "dev-gsg-east.gift.solutions",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -192069,40 +190924,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "dev-merchant-portal-tw-api.gift.solutions",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "dev-miam.businesstrack.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev-myfiserv.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev-otp.catalyst.clover.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -192168,95 +190990,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "dev-unifieddeveloper.fiserv.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "dev-www.wgiftcard.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev-x-01-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev-x-01-euw1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev-x-01-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev-x-01-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev-x-01-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev-x-01-use4.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dev.api.ipg-online.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -192466,17 +191200,6 @@
         },
         {
           "asset_identifier": "digitalbillpay.firstcitizens.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dime-temp.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -193081,28 +191804,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "dnawebtest.fiserv.io",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dnawebtest2.fiserv.io",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "dnawebtest3.fiserv.io",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -193126,17 +191827,6 @@
         },
         {
           "asset_identifier": "dollarbank.architect-cert.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "dominion-temp.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -193411,17 +192101,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "dr-axiom.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "dr-libra-prod.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -193598,17 +192277,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "dx-temp.olbanking.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "dx.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -193698,17 +192366,6 @@
         },
         {
           "asset_identifier": "eastwest-cc.olbanking.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "eastwest-temp.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -194302,28 +192959,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "emfi-bankinghub-cert-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "emfi-bankinghub-cert-use4.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "emfi-bankinghub-cert.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -194347,17 +192982,6 @@
         },
         {
           "asset_identifier": "emfi-bankinghub-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "emfi-bankinghub-use4.ns1.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -194820,17 +193444,6 @@
         },
         {
           "asset_identifier": "eu-ssoca.fiservapp.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "eu.clover.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -195809,28 +194422,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "feedback-app-nonprod-nextgen-radware.bentopreprod.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "feedback-app-prod-nextgen-radware.getbento.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "feedback-app-staging-radware.bentosandbox.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -195843,17 +194434,6 @@
         },
         {
           "asset_identifier": "feedback-prod-radware.getbento.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "feedback-staging-radware.bentosandbox.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -195997,17 +194577,6 @@
         },
         {
           "asset_identifier": "ffsbweb.onlinebank.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "fhb-temp.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -196227,29 +194796,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "filesdev3.dev.clover.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "filesdev5.dev.clover.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "filessandbox.dev.clover.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -196690,17 +195237,6 @@
         },
         {
           "asset_identifier": "firstfinancial2-test.fiserv.io",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "firstfoundation-temp.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -197251,17 +195787,6 @@
         },
         {
           "asset_identifier": "fiservtestservicepoint.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "flagstar-temp.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -198603,17 +197128,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "ftexpress-tdbank-temp.olbanking.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "ftexpress.tdbank.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -198999,17 +197513,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "genesisbank-temp.olbanking.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "genesisbankcert-temp.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -199330,17 +197833,6 @@
         },
         {
           "asset_identifier": "gotomycardcat.fdecs.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "gpag-cat.softwareexpress.com.br",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -200055,17 +198547,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "hbc-temp.olbanking.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "hbc.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -200705,17 +199186,6 @@
         },
         {
           "asset_identifier": "homestbk.onlinebank.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "hometrust-temp.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -208789,17 +207259,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://cat-cc-aus.firstdataclients.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://cat-clover-alliance.technologi.co.uk",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -208845,17 +207304,6 @@
         },
         {
           "asset_identifier": "http://cat-mt-configuration.technologi.co.uk",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://cat-myfiserv.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -208943,17 +207391,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://cat.emea.api.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://cat.emea.eventgateway.fiservapp.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -208987,28 +207424,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://cat.firstdataeservices.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://cat.latam.api.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://cat.prepaidaccess.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -209021,17 +207436,6 @@
         },
         {
           "asset_identifier": "http://cat1.fsdsapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://cat1.fsdsapps.com/api/fs/ecsauth",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -209812,50 +208216,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://cert-api-invoca.catalyst.clover.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://cert-api-payments-exchange-rtp.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://cert-api-rest.catalyst.clover.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://cert-api.catalyst.clover.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://cert-api.marketplace.fiserv.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -209868,17 +208228,6 @@
         },
         {
           "asset_identifier": "http://cert-developer-portal.fiserv.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://cert-developer.firstdata.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -210098,29 +208447,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://cert.apac.api.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://cert.api.checkfreepay.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://cert.api.firstdata.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -210176,17 +208503,6 @@
         },
         {
           "asset_identifier": "http://cert.cahpcu.org",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://cert.callfederal.org",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -210363,17 +208679,6 @@
         },
         {
           "asset_identifier": "http://cert.efcufinancial.org",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://cert.emea.api.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -210714,28 +209019,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://cert.lajoyacreditunion.coop",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://cert.latam.api.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://cert.link.checkfreepay.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -210824,29 +209107,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://cert.merituscu.net",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://cert.mesquitecu.org",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://cert.mysunwest.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -210924,17 +209185,6 @@
         },
         {
           "asset_identifier": "http://cert.pacu.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://cert.pcfcu.org",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -212694,17 +210944,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://citizensbankonline.fta.cashedge.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://citizensbanktrust.architect-cert.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -213937,17 +212176,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://consumerbillpayqa.onlinebanking.pnc.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://consumercu-dc.cert.fec-dc.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -214048,17 +212276,6 @@
         },
         {
           "asset_identifier": "http://coosapines.streamlendvelocity.net",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://copilot-uat.cardconnect.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -214982,17 +213199,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://cte-cardvalet-ws.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://cte.client-central.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -215565,17 +213771,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://ddf-southcarolina-c.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://ddf-southcarolina-p.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -215763,40 +213958,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://dev-acct-mgmt.catalyst.clover.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://dev-api-invoca.catalyst.clover.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://dev-api-rest.catalyst.clover.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://dev-api.catalyst.clover.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -216390,17 +214552,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://disbursementsapi-uat.popmoney.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://discover.apac.3ds.firstdata.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -216468,28 +214619,6 @@
         },
         {
           "asset_identifier": "http://districtcreditunion-dn.financial-net.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://dit1-cardvalet-ws.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://dit3-cardvalet-ws.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -216886,17 +215015,6 @@
         },
         {
           "asset_identifier": "http://dqen.firstdataclients.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://dr-ess.firstdataeservices.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -217304,72 +215422,6 @@
         },
         {
           "asset_identifier": "http://eagleexpressfcu.originate.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://earchive.ddsservicebureau.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://earchive2.ddsservicebureau.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://earchive4.ddsservicebureau.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://earchive5.ddsservicebureau.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://earchive6.ddsservicebureau.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://earchive7.ddsservicebureau.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -218514,17 +216566,6 @@
         },
         {
           "asset_identifier": "http://estarstation.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://estatements.cowww.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -222308,17 +220349,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://fswidget.creditplus.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://fswidget.dev.finlocker.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -222858,17 +220888,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://golden1.fta.popmoney.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://goldencirclecu-dc.cert.fec-dc.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -222958,28 +220977,6 @@
         },
         {
           "asset_identifier": "http://goxroads.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://gpag.softwareexpress.com.br",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://gpagpreprod.softwareexpress.com.br",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -224959,17 +222956,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://hsbc.oao.cashedge.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://hsefcu-dc.cert.fec-dc.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -225718,39 +223704,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://int.apac.api.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://int.api.firstdata.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://int.api.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://int.catalyst.clover.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -225762,29 +223715,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://int.emea.api.fiservapps.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://int.emea.eventgateway.fiservapp.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://int.latam.api.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -225939,28 +223870,6 @@
         },
         {
           "asset_identifier": "http://intqacompass.ft.cashedge.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://intqafundsxpress.fta.popmoney.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://intqagolden1.fta.popmoney.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -226191,17 +224100,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "http://iqaonfn.ft1.cashedge.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "http://iqapcisso.fta.cashedge.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -226269,17 +224167,6 @@
         },
         {
           "asset_identifier": "http://iqassovn.ft1.cashedge.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://iqatdbank2.fta.popmoney.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -226720,17 +224607,6 @@
         },
         {
           "asset_identifier": "http://johnhancock.hepsiian.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "http://join.alecu.org",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -255550,17 +253426,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "https://emoney.cashedge.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "https://ftadmin.compass1.cashedge.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -255573,17 +253438,6 @@
         },
         {
           "asset_identifier": "https://ftadmin.compass2.cashedge.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "https://join-admin.alecu.org",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -257761,17 +255615,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "idbny-temp.olbanking.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "idbny.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -257850,17 +255693,6 @@
         },
         {
           "asset_identifier": "ig-belmontbank.onlinebank.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "ignitepayments.co.uk",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -258015,17 +255847,6 @@
         },
         {
           "asset_identifier": "independencestatebank.onlinebank.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "independent-temp.olbanking.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -258201,50 +256022,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "int-api-firstdata-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-api-firstdata-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-api-firstdata-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-api-firstdata-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "int-api-firstdata-use4.ns1.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -258256,95 +256033,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "int-api-fiservapps-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-api-fiservapps-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-api-fiservapps-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-api-fiservapps-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "int-api-fiservapps-use4.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-apigee-fiservapps-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-apigee-fiservapps-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-apigee-fiservapps-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-apigee-fiservapps-usc1.ns1.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -258377,62 +256066,7 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "int-gp-api-fiservapps-ause1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-gp-api-fiservapps-euw3.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-gp-api-fiservapps-sae1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-gp-api-fiservapps-usc1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "int-gp-api-fiservapps-use4.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "int-latam-api-fiservapps.ns1.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -258543,17 +256177,6 @@
         },
         {
           "asset_identifier": "iowatrust-p2.onlinebank.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "ippweb-cat.fiservapp.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -259334,28 +256957,6 @@
           "max_severity": "critical"
         },
         {
-          "asset_identifier": "kiosk-prod-radware.getbento.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "kiosk-staging-radware.bentosandbox.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
           "asset_identifier": "kirkwoodbank-p2.onlinebank.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -259511,17 +257112,6 @@
         },
         {
           "asset_identifier": "la-fimu-x-saw1.ns1.fiservapis.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "la.clover.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -261260,17 +258850,6 @@
         },
         {
           "asset_identifier": "mclennancountyefcu.vbwebservices.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "mcnative-uat.cardconnect.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -284449,7 +282028,7 @@
     "name": "Beiersdorf",
     "offers_bounties": false,
     "offers_swag": true,
-    "response_efficiency_percentage": 92,
+    "response_efficiency_percentage": 93,
     "submission_state": "open",
     "url": "https://hackerone.com/beiersdorf",
     "website": "https://www.beiersdorf.com",
@@ -284469,7 +282048,7 @@
     "name": "John Deere",
     "offers_bounties": false,
     "offers_swag": true,
-    "response_efficiency_percentage": 85,
+    "response_efficiency_percentage": 86,
     "submission_state": "open",
     "url": "https://hackerone.com/john-deere",
     "website": "http://deere.com",
@@ -433917,7 +431496,7 @@
     "name": "PlayStation",
     "offers_bounties": true,
     "offers_swag": true,
-    "response_efficiency_percentage": 72,
+    "response_efficiency_percentage": 71,
     "submission_state": "open",
     "url": "https://hackerone.com/playstation",
     "website": "https://www.playstation.com",
@@ -449901,7 +447480,7 @@
     "name": "AT&T",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 93,
+    "response_efficiency_percentage": 92,
     "submission_state": "open",
     "url": "https://hackerone.com/att",
     "website": "https://www.att.com",
@@ -450759,7 +448338,7 @@
     "name": "Lark Technologies",
     "offers_bounties": true,
     "offers_swag": true,
-    "response_efficiency_percentage": 77,
+    "response_efficiency_percentage": 75,
     "submission_state": "open",
     "url": "https://hackerone.com/lark_technologies",
     "website": "https://www.larksuite.com",
@@ -453840,7 +451419,7 @@
     "name": "Instacart",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 82,
+    "response_efficiency_percentage": 81,
     "submission_state": "open",
     "url": "https://hackerone.com/instacart",
     "website": "https://instacart.com",
@@ -454466,7 +452045,7 @@
     "name": "Expedia Group Bug Bounty",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 82,
+    "response_efficiency_percentage": 81,
     "submission_state": "open",
     "url": "https://hackerone.com/expediagroup_bbp",
     "website": "https://www.expediagroup.com/",
@@ -455334,7 +452913,7 @@
     "name": "Front",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 62,
+    "response_efficiency_percentage": 63,
     "submission_state": "open",
     "url": "https://hackerone.com/fronthq",
     "website": "https://frontapp.com",
@@ -456235,7 +453814,7 @@
     "name": "MercadoLibre",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 91,
+    "response_efficiency_percentage": 92,
     "submission_state": "open",
     "url": "https://hackerone.com/mercadolibre",
     "website": "https://www.mercadolibre.com",
@@ -461070,6 +458649,28 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "https://gatewaydsapprd.marriott.com/v1/",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "https://gatewaydsapprd.marriott.com/v2/",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "https://gatewaydsaptst1.marriott.com/",
           "asset_type": "URL",
           "availability_requirement": "medium",
@@ -462525,7 +460126,7 @@
     "name": "Flipkart",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 85,
+    "response_efficiency_percentage": 86,
     "submission_state": "open",
     "url": "https://hackerone.com/flipkart",
     "website": "https://flipkart.com",
@@ -463843,7 +461444,7 @@
     "name": "Chaturbate",
     "offers_bounties": true,
     "offers_swag": true,
-    "response_efficiency_percentage": 70,
+    "response_efficiency_percentage": 65,
     "submission_state": "open",
     "url": "https://hackerone.com/chaturbate",
     "website": "https://chaturbate.com",
@@ -463997,7 +461598,7 @@
     "name": "pixiv",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 72,
+    "response_efficiency_percentage": 74,
     "submission_state": "open",
     "url": "https://hackerone.com/pixiv",
     "website": "https://www.pixiv.net",
@@ -465290,7 +462891,7 @@
     "name": "Flutter UK&I",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 95,
+    "response_efficiency_percentage": 96,
     "submission_state": "open",
     "url": "https://hackerone.com/flutteruki",
     "website": "https://www.flutter.com/our-business/our-divisions",
@@ -468731,7 +466332,7 @@
     "name": "Valve",
     "offers_bounties": true,
     "offers_swag": true,
-    "response_efficiency_percentage": 75,
+    "response_efficiency_percentage": 74,
     "submission_state": "open",
     "url": "https://hackerone.com/valve",
     "website": "https://www.valvesoftware.com",
@@ -473731,7 +471332,7 @@
     "name": "Bumble",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 81,
+    "response_efficiency_percentage": 82,
     "submission_state": "open",
     "url": "https://hackerone.com/bumble",
     "website": "https://bumble.com/",
@@ -474974,7 +472575,7 @@
     "name": "Roblox",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 66,
+    "response_efficiency_percentage": 65,
     "submission_state": "open",
     "url": "https://hackerone.com/roblox",
     "website": "https://www.roblox.com",
@@ -476928,7 +474529,7 @@
     "name": "Discourse",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 55,
+    "response_efficiency_percentage": 53,
     "submission_state": "open",
     "url": "https://hackerone.com/discourse",
     "website": "https://discourse.org",
@@ -478846,7 +476447,7 @@
     "name": "WordPress",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 72,
+    "response_efficiency_percentage": 73,
     "submission_state": "open",
     "url": "https://hackerone.com/wordpress",
     "website": "https://wordpress.org/",
@@ -483586,7 +481187,7 @@
     "name": "Udemy",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 71,
+    "response_efficiency_percentage": 72,
     "submission_state": "open",
     "url": "https://hackerone.com/udemy",
     "website": "http://udemy.com",
@@ -488248,7 +485849,7 @@
     "name": "Uber",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 67,
+    "response_efficiency_percentage": 66,
     "submission_state": "open",
     "url": "https://hackerone.com/uber",
     "website": "https://www.uber.com",
@@ -491521,7 +489122,7 @@
     "name": "Automattic",
     "offers_bounties": true,
     "offers_swag": true,
-    "response_efficiency_percentage": 53,
+    "response_efficiency_percentage": 54,
     "submission_state": "open",
     "url": "https://hackerone.com/automattic",
     "website": "https://automattic.com",
