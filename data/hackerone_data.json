@@ -503,7 +503,7 @@
     "name": "Assa Abloy Americas",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 78,
+    "response_efficiency_percentage": 77,
     "submission_state": "open",
     "url": "https://hackerone.com/assa_abloy_americas",
     "website": "http://www.assaabloy.com",
@@ -1610,7 +1610,7 @@
     "name": "Epic Games VDP",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 80,
+    "response_efficiency_percentage": 78,
     "submission_state": "open",
     "url": "https://hackerone.com/epicgames-vdp",
     "website": "http://epicgames.com",
@@ -2786,7 +2786,7 @@
     "name": "PhonePe",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 60,
+    "response_efficiency_percentage": 63,
     "submission_state": "open",
     "url": "https://hackerone.com/phonepe_vdp",
     "website": "https://www.phonepe.com/",
@@ -4034,7 +4034,7 @@
     "name": "Live Nation",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 86,
+    "response_efficiency_percentage": 87,
     "submission_state": "open",
     "url": "https://hackerone.com/live_nation",
     "website": "http://livenation.com",
@@ -14000,7 +14000,7 @@
     "name": "DoorDash",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 81,
+    "response_efficiency_percentage": 80,
     "submission_state": "open",
     "url": "https://hackerone.com/doordash",
     "website": "http://doordash.com",
@@ -17079,7 +17079,7 @@
     "name": "Robinhood Markets",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 67,
+    "response_efficiency_percentage": 69,
     "submission_state": "open",
     "url": "https://hackerone.com/robinhood_markets",
     "website": "http://robinhood.com",
@@ -19552,7 +19552,7 @@
     "name": "NetScaler Public Program",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 6,
+    "response_efficiency_percentage": 11,
     "submission_state": "open",
     "url": "https://hackerone.com/netscaler_public_program",
     "website": "",
@@ -20089,7 +20089,7 @@
     "name": "Kaseya",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 75,
+    "response_efficiency_percentage": 74,
     "submission_state": "open",
     "url": "https://hackerone.com/kaseya",
     "website": "http://kaseya.com",
@@ -26746,7 +26746,7 @@
     "name": "Whoop Bug Bounty",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 73,
+    "response_efficiency_percentage": 75,
     "submission_state": "open",
     "url": "https://hackerone.com/whoop_bug_bounty",
     "website": "https://www.whoop.com",
@@ -26954,7 +26954,7 @@
     "name": "HubSpot",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 73,
+    "response_efficiency_percentage": 72,
     "submission_state": "open",
     "url": "https://hackerone.com/hubspot",
     "website": "http://hubspot.com",
@@ -29296,7 +29296,7 @@
     "name": "The Browser Company of NYC",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 77,
+    "response_efficiency_percentage": 78,
     "submission_state": "open",
     "url": "https://hackerone.com/bcny",
     "website": "http://thebrowser.company",
@@ -29636,7 +29636,7 @@
     "name": "Verily Life Sciences",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 66,
+    "response_efficiency_percentage": 65,
     "submission_state": "open",
     "url": "https://hackerone.com/verily_life_sciences",
     "website": "http://verily.com",
@@ -29820,7 +29820,7 @@
     "name": "Starbucks Japan",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 77,
+    "response_efficiency_percentage": 81,
     "submission_state": "open",
     "url": "https://hackerone.com/starbucks_japan",
     "website": "http://starbucks.com",
@@ -30476,7 +30476,7 @@
     "name": "PepsiCo VDP",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 71,
+    "response_efficiency_percentage": 72,
     "submission_state": "open",
     "url": "https://hackerone.com/pepsico_vdp",
     "website": "http://pepsico.com",
@@ -47974,7 +47974,7 @@
     "name": "Supabase",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 88,
+    "response_efficiency_percentage": 87,
     "submission_state": "open",
     "url": "https://hackerone.com/supabase",
     "website": "https://supabase.com",
@@ -49015,7 +49015,7 @@
     "name": "Varonis",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 75,
+    "response_efficiency_percentage": 73,
     "submission_state": "open",
     "url": "https://hackerone.com/varonis",
     "website": "https://www.varonis.com/",
@@ -65295,7 +65295,7 @@
     "name": "Unico IDtech",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 90,
+    "response_efficiency_percentage": 91,
     "submission_state": "open",
     "url": "https://hackerone.com/unico_idtech",
     "website": "http://unico.io",
@@ -79617,7 +79617,7 @@
     "name": "SIX Group",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 81,
+    "response_efficiency_percentage": 82,
     "submission_state": "open",
     "url": "https://hackerone.com/six-group",
     "website": "https://six-group.com",
@@ -81167,7 +81167,7 @@
     "name": "Redox",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 84,
+    "response_efficiency_percentage": 85,
     "submission_state": "open",
     "url": "https://hackerone.com/redox_bbp",
     "website": "https://www.redoxengine.com",
@@ -99383,7 +99383,7 @@
     "name": "Abercrombie & Fitch Bug Bounty",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 85,
+    "response_efficiency_percentage": 86,
     "submission_state": "open",
     "url": "https://hackerone.com/abercrombie_fitch_bbp",
     "website": "http://abercrombie.com",
@@ -100578,7 +100578,7 @@
     "name": "Notion Labs, Inc.",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 92,
+    "response_efficiency_percentage": 93,
     "submission_state": "open",
     "url": "https://hackerone.com/notion",
     "website": "http://www.notion.so",
@@ -162609,7 +162609,7 @@
     "name": "The Walt Disney Company",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 63,
+    "response_efficiency_percentage": 67,
     "submission_state": "open",
     "url": "https://hackerone.com/disney",
     "website": "https://thewaltdisneycompany.com/",
@@ -163906,7 +163906,7 @@
     "name": "Vodafone",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 86,
+    "response_efficiency_percentage": 87,
     "submission_state": "open",
     "url": "https://hackerone.com/vodafone",
     "website": "http://vodafone.com",
@@ -174520,7 +174520,7 @@
     "name": "Semtech",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 90,
+    "response_efficiency_percentage": 89,
     "submission_state": "open",
     "url": "https://hackerone.com/semtech",
     "website": "https://www.semtech.com",
@@ -175200,7 +175200,7 @@
     "name": "Zurich Insurance",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 71,
+    "response_efficiency_percentage": 72,
     "submission_state": "open",
     "url": "https://hackerone.com/zurich-insurance",
     "website": "http://zurich.com",
@@ -175936,7 +175936,7 @@
     "name": "Whatnot",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 89,
+    "response_efficiency_percentage": 90,
     "submission_state": "open",
     "url": "https://hackerone.com/whatnot",
     "website": "https://www.whatnot.com",
@@ -178735,6 +178735,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "360control.fiservapp.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "3ds-mastercard-server.softwareexpress.com.br",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -179065,6 +179076,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "account.usdirectexpress.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "accounts-uat-aux.cardconnect.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -179275,6 +179297,28 @@
         },
         {
           "asset_identifier": "admin.thepineapplestage.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "admin7.thepayplace.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "admin8.thepayplace.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -180650,6 +180694,28 @@
         },
         {
           "asset_identifier": "api1.smsservicesnow.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "api7.thepayplace.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "api8.thepayplace.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -185786,6 +185852,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "cat-ccc.businesstrack.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "cat-client360.fiservapp.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -185809,6 +185886,17 @@
         },
         {
           "asset_identifier": "cat-clover-branding.technologi.co.uk",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "cat-cst-client360-portal.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -186292,6 +186380,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "ccc.businesstrack.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "ccccu-dc.cert.fec-dc.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -186678,6 +186777,17 @@
         },
         {
           "asset_identifier": "cert-card.moneynetwork.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "cert-ccc.businesstrack.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -188625,6 +188735,17 @@
         },
         {
           "asset_identifier": "client360-portal.fiservapps.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "client360.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -191979,6 +192100,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "dispute-ss.fiservapis.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "district6fcu-dc.cert.fec-dc.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -194905,6 +195037,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "fdcdev.rightanswers.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "fdis.firstdataclients.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -194927,7 +195070,29 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "fdpos-cert.fiservapis.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "fdpos-soap-cert.fiservapis.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "fead-mop.firstdata.eu",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -195741,7 +195906,29 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "firstdataepastg.rightanswers.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "firstdatapartnersolutions.rightanswers.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "firstdatapartnersolutionsstg.rightanswers.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -196380,6 +196567,17 @@
         },
         {
           "asset_identifier": "fiservconversions.fiservapps.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "fiservdev.rightanswers.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -201230,6 +201428,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "http://admin.thepayplace.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "http://admin2.thepayplace.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -201242,6 +201451,17 @@
         },
         {
           "asset_identifier": "http://admin3.thepayplace.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "http://admin4.thepayplace.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -202297,7 +202517,29 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "http://api3.thepayplace.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "http://api4.thepayplace.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "http://api5.thepayplace.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -221613,6 +221855,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "http://govone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "http://goxroads.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -223307,6 +223560,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "http://homol.gestao.caixa.fiserv.com.br",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "http://homol.gestao.sicredi.fiserv.com.br",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -224881,6 +225145,17 @@
         },
         {
           "asset_identifier": "http://irsaadm.softwareexpress.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "http://isnap-cardnet.co.uk",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -238344,6 +238619,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "http://prod-guardian.businesstrack.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "http://prod.apac.api.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -248607,6 +248893,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "http://uat.fdgs.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "http://uat.fiserv.dev",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -248630,6 +248927,17 @@
         },
         {
           "asset_identifier": "http://uat.portal.fiserv.dev",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "http://uat.thepayplace.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -252545,6 +252853,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "http://www2.thepayplace.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "http://www2.valuelink.biz",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -252601,6 +252920,17 @@
         },
         {
           "asset_identifier": "http://www4.ipg-online.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "http://www4.thepayplace.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -256340,6 +256670,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "issuersolutions-cert.fiservapis.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "isvpartner.fiserv.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -259618,6 +259959,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "micomercio.unicaja.es",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "micsb.onlinebank.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -260465,6 +260817,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "mope.firstdata.eu",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "morgantonsavings-p2.onlinebank.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -260565,6 +260928,28 @@
         },
         {
           "asset_identifier": "mpi-homolog.softwareexpress.com.br",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "mpi.safekey.amex.apac.3ds.firstdata.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "mpi.safekey.amex.lac.3ds.firstdata.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -263084,6 +263469,17 @@
         },
         {
           "asset_identifier": "omni-cit.fiservapps.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "omni.firstdataclients.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -266669,6 +267065,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "qa-ccc.businesstrack.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "qa-dma.fiserv.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -266845,6 +267252,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "qa.commercecontrol.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "qa.fimu.me",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -266868,6 +267286,28 @@
         },
         {
           "asset_identifier": "qa.merchantselfboarding.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "qa0-madonotcall.govconnect.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "qa0-nysdtf.govone.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -276789,6 +277229,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "usdirectexpress.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "usecuweb-admin.originate.fiservapps.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -278725,6 +279176,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "ws-fhs-cert.fiservapis.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "ws-otp-ne-cert.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -278737,6 +279199,39 @@
         },
         {
           "asset_identifier": "ws-otp-ne-qa.fiservapis.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "ws-tsp-cert.fiservapis.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "ws-tsp-qa.fiservapis.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "ws-tsp.fiservapis.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -279000,6 +279495,17 @@
           "max_severity": "critical"
         },
         {
+          "asset_identifier": "www102.ipg-online.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
           "asset_identifier": "www104.fdconnect.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -279023,6 +279529,17 @@
         },
         {
           "asset_identifier": "www2-dc-staging.ipg-online.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "www2-dr-staging.ipg-online.com",
           "asset_type": "URL",
           "availability_requirement": null,
           "confidentiality_requirement": null,
@@ -280553,7 +281070,7 @@
     "name": "Beiersdorf",
     "offers_bounties": false,
     "offers_swag": true,
-    "response_efficiency_percentage": 94,
+    "response_efficiency_percentage": 95,
     "submission_state": "open",
     "url": "https://hackerone.com/beiersdorf",
     "website": "https://www.beiersdorf.com",
@@ -284420,6 +284937,17 @@
         },
         {
           "asset_identifier": "biomcp.ghns-web-platform-prod-standalone4.us.e00.c01.johndeerecloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        {
+          "asset_identifier": "blog.machinefinder.com",
           "asset_type": "URL",
           "availability_requirement": "medium",
           "confidentiality_requirement": "medium",
@@ -317795,7 +318323,7 @@
     "name": "Mars",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 83,
+    "response_efficiency_percentage": 84,
     "submission_state": "open",
     "url": "https://hackerone.com/mars",
     "website": "http://mars.com",
@@ -319147,7 +319675,7 @@
     "name": "Stripe",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 76,
+    "response_efficiency_percentage": 77,
     "submission_state": "open",
     "url": "https://hackerone.com/stripe",
     "website": "https://stripe.com",
@@ -319848,7 +320376,7 @@
     "name": "Paystack Vulnerability Disclosure",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 73,
+    "response_efficiency_percentage": 70,
     "submission_state": "open",
     "url": "https://hackerone.com/paystack-vdp",
     "website": "https://paystack.com/",
@@ -415798,7 +416326,7 @@
     "name": "Doppler",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 85,
+    "response_efficiency_percentage": 86,
     "submission_state": "open",
     "url": "https://hackerone.com/doppler",
     "website": "https://www.doppler.com",
@@ -425343,7 +425871,7 @@
     "name": "Vendasta",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 100,
+    "response_efficiency_percentage": 67,
     "submission_state": "open",
     "url": "https://hackerone.com/vendasta",
     "website": "http://vendasta.com",
@@ -428476,7 +429004,7 @@
     "name": "Shutterfly VDP",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 87,
+    "response_efficiency_percentage": 84,
     "submission_state": "open",
     "url": "https://hackerone.com/shutterfly_vdp",
     "website": "https://www.shutterfly.com",
@@ -430054,7 +430582,7 @@
     "name": "PlayStation",
     "offers_bounties": true,
     "offers_swag": true,
-    "response_efficiency_percentage": 75,
+    "response_efficiency_percentage": 76,
     "submission_state": "open",
     "url": "https://hackerone.com/playstation",
     "website": "https://www.playstation.com",
@@ -431050,7 +431578,7 @@
     "name": "Evernote",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 64,
+    "response_efficiency_percentage": 65,
     "submission_state": "open",
     "url": "https://hackerone.com/evernote",
     "website": "http://evernote.com",
@@ -448284,7 +448812,7 @@
     "name": "Capital One",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 89,
+    "response_efficiency_percentage": 88,
     "submission_state": "open",
     "url": "https://hackerone.com/capital-one",
     "website": "https://capitalone.com",
@@ -450097,7 +450625,7 @@
     "name": "Expedia Group Bug Bounty",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 77,
+    "response_efficiency_percentage": 75,
     "submission_state": "open",
     "url": "https://hackerone.com/expediagroup_bbp",
     "website": "https://www.expediagroup.com/",
@@ -454560,7 +455088,7 @@
     "name": "Flickr",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 75,
+    "response_efficiency_percentage": 73,
     "submission_state": "open",
     "url": "https://hackerone.com/flickr",
     "website": "https://www.flickr.com/",
@@ -455209,7 +455737,7 @@
     "name": "Logitech",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 78,
+    "response_efficiency_percentage": 77,
     "submission_state": "open",
     "url": "https://hackerone.com/logitech",
     "website": "https://www.logitech.com",
@@ -458584,7 +459112,7 @@
     "name": "Chainlink",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 16,
+    "response_efficiency_percentage": 15,
     "submission_state": "open",
     "url": "https://hackerone.com/chainlink",
     "website": "https://chain.link/",
@@ -460635,7 +461163,7 @@
     "name": "Ping Identity",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 65,
+    "response_efficiency_percentage": 66,
     "submission_state": "open",
     "url": "https://hackerone.com/pingidentity",
     "website": "https://www.pingidentity.com/",
@@ -462423,7 +462951,19 @@
           "max_severity": "critical"
         }
       ],
-      "out_of_scope": []
+      "out_of_scope": [
+        {
+          "asset_identifier": "Falcon Browser Extension V2",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is temporarily out of scope of our program.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        }
+      ]
     }
   },
   {
@@ -464384,7 +464924,7 @@
     "name": "Valve",
     "offers_bounties": true,
     "offers_swag": true,
-    "response_efficiency_percentage": 73,
+    "response_efficiency_percentage": 74,
     "submission_state": "open",
     "url": "https://hackerone.com/valve",
     "website": "https://www.valvesoftware.com",
@@ -467321,7 +467861,7 @@
     "name": "Superhuman (formerly Grammarly)",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 97,
+    "response_efficiency_percentage": 96,
     "submission_state": "open",
     "url": "https://hackerone.com/superhuman",
     "website": "https://superhuman.com/",
@@ -473371,82 +473911,6 @@
   },
   {
     "allows_bounty_splitting": true,
-    "average_time_to_bounty_awarded": 155.0,
-    "average_time_to_first_program_response": 9.0,
-    "average_time_to_report_resolved": null,
-    "handle": "brave",
-    "id": 0,
-    "managed_program": false,
-    "name": "Brave Software",
-    "offers_bounties": true,
-    "offers_swag": true,
-    "response_efficiency_percentage": 100,
-    "submission_state": "open",
-    "url": "https://hackerone.com/brave",
-    "website": "https://brave.com",
-    "targets": {
-      "in_scope": [
-        {
-          "asset_identifier": "Brave Browser Desktop",
-          "asset_type": "DOWNLOADABLE_EXECUTABLES",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": true,
-          "eligible_for_submission": true,
-          "instruction": "Please specify operating system and version of Brave. Only issues in the latest nightly/beta/stable releases are in scope.",
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "Brave websites",
-          "asset_type": "OTHER",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": true,
-          "eligible_for_submission": true,
-          "instruction": "This includes but is not limited to Brave Search, Brave Search API dashboard, Brave Creators, Brave Accounts, Brave Talk, and Brave Ads dashboard. Please do not report issues that have no real user impact.",
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "com.brave.browser",
-          "asset_type": "GOOGLE_PLAY_APP_ID",
-          "availability_requirement": "high",
-          "confidentiality_requirement": "high",
-          "eligible_for_bounty": true,
-          "eligible_for_submission": true,
-          "instruction": "",
-          "integrity_requirement": "high",
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "com.brave.ios.browser",
-          "asset_type": "APPLE_STORE_APP_ID",
-          "availability_requirement": "high",
-          "confidentiality_requirement": "high",
-          "eligible_for_bounty": true,
-          "eligible_for_submission": true,
-          "instruction": "",
-          "integrity_requirement": "high",
-          "max_severity": "critical"
-        },
-        {
-          "asset_identifier": "https://github.com/brave/*, https://github.com/brave-intl/*",
-          "asset_type": "SOURCE_CODE",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": true,
-          "eligible_for_submission": true,
-          "instruction": "In general we're interested in vulnerabilities in all GitHub repos under brave/ and brave-intl/, barring explicit exclusions. Also exclude forks and archived repos.",
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        }
-      ],
-      "out_of_scope": []
-    }
-  },
-  {
-    "allows_bounty_splitting": true,
     "average_time_to_bounty_awarded": 221.0,
     "average_time_to_first_program_response": 13.0,
     "average_time_to_report_resolved": null,
@@ -476246,7 +476710,7 @@
     "name": "Ruby",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 88,
+    "response_efficiency_percentage": 87,
     "submission_state": "open",
     "url": "https://hackerone.com/ruby",
     "website": "https://www.ruby-lang.org",
@@ -476477,7 +476941,7 @@
     "name": "GitHub",
     "offers_bounties": true,
     "offers_swag": true,
-    "response_efficiency_percentage": 33,
+    "response_efficiency_percentage": 34,
     "submission_state": "open",
     "url": "https://hackerone.com/github",
     "website": "https://bounty.github.com",
@@ -476928,7 +477392,7 @@
     "name": "Wealthsimple",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 74,
+    "response_efficiency_percentage": 73,
     "submission_state": "open",
     "url": "https://hackerone.com/wealthsimple",
     "website": "https://www.wealthsimple.com",
@@ -483306,7 +483770,7 @@
     "name": "Priceline",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 90,
+    "response_efficiency_percentage": 91,
     "submission_state": "open",
     "url": "https://hackerone.com/priceline",
     "website": "http://www.priceline.com/",
@@ -487985,7 +488449,7 @@
     "name": "Concrete CMS",
     "offers_bounties": false,
     "offers_swag": true,
-    "response_efficiency_percentage": 86,
+    "response_efficiency_percentage": 85,
     "submission_state": "open",
     "url": "https://hackerone.com/concretecms",
     "website": "https://www.concretecms.org",
